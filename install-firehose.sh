@@ -6,7 +6,7 @@ CURRENT_DIR=`pwd`
 popd > /dev/null
 # ================================================================ #
 
-SDK_ROOT=`xcodebuild -version -sdk macosx Path`
+SDK_ROOT=`xcodebuild -version -sdk iphoneos Path`
 echo "Target SDK Path: ${SDK_ROOT}"
 # ================================================================ #
 
